@@ -1,0 +1,9 @@
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 92px;
+  margin: 0;
+  padding-bottom: 80px;
+  width: 984px;
+}

@@ -1,0 +1,11 @@
+.cover {
+  width: 1184px;
+  height: 740px;
+  padding-bottom: 92px;
+}
+
+.cover:hover {
+  transition-property: opacity;
+  opacity: 0.3;
+  cursor: pointer;
+}
