@@ -11,4 +11,8 @@
   background-color: #2A2C2F;
   box-sizing: border-box;
   overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
 }

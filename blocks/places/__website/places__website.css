@@ -1,5 +1,5 @@
 .places__website {
-  width: 484px;
+  width: 456px;
   height: 46px;
-  padding-top: 106px;
+  align-self: flex-end;
 }

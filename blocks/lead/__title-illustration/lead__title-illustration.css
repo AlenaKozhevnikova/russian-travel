@@ -1,5 +1,13 @@
 .lead__title-illustration {
-  width: 984px;
-  height: 615px;
-  object-fit: fill;
+  width: 928px;
+  height: 580px;
+  object-fit: cover;
+  padding-top: 64px;
+}
+
+@media (max-width: 1024px) {
+  .lead__title-illustration {
+    width: 928px;
+    padding-top: 56px;
+  }
 }

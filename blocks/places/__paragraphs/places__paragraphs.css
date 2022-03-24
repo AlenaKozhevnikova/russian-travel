@@ -2,4 +2,12 @@
   padding-top: 48px;
   margin: 0;
   padding-left: 40px;
+  width: 484px;
+}
+
+@media (max-width: 1024px) {
+  .places__paragraphs {
+    padding-left: 32px;
+    width: 456px;
+  }
 }

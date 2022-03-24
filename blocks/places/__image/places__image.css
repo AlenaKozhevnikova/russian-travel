@@ -4,3 +4,11 @@
   padding-top: 48px;
   object-fit: fill;
 }
+
+@media (max-width: 1024px) {
+  .places__image {
+    width: 440px;
+    height: 440px;
+  }
+}
+

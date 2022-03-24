@@ -2,6 +2,7 @@
   width: 1184px;
   height: 740px;
   padding-bottom: 92px;
+  padding-top: 12px;
 }
 
 .cover:hover {
@@ -9,3 +10,11 @@
   opacity: 0.3;
   cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+    height: 640px;
+  }
+}
+

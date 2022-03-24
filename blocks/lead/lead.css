@@ -5,7 +5,13 @@
   display: flex;
   align-items: center;
   flex-flow: column;
-  padding-left: 148px;
-  padding-right: 148px;
-  margin: 0;;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    width: 928px;
+    padding-top: 48px;
+    height: 962px;
+  }
 }

@@ -12,3 +12,9 @@
   padding: 429px 412px 245px;
   margin: 0;
 }
+
+@media (max-width: 1024px) {
+  .cover__subtitle {
+    padding: 379px 332px 195px;
+  }
+}

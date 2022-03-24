@@ -1,7 +1,13 @@
 .intro {
-  min-width: 984px;
+  width: 690px;
   padding-left: 148px;
-  padding-right: 442px;
   align-self: flex-start;
   margin: 0;
+  padding-top: 92px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding-left: 48px;
+  }
 }
