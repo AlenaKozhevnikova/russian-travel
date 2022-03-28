@@ -1,5 +1,5 @@
 .lead {
-  width: 984px;
+  max-width: 984px;
   height: 1005px;
   padding-top: 56px;
   display: flex;
@@ -8,10 +8,27 @@
   margin: auto;
 }
 
+@media (max-width: 320px) {
+  .lead {
+    padding-top: calc(48px + (56 - 48) * ((100vw - 320px) / (1280 - 320)));
+    max-width: calc(320px + (984 - 320) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
 @media (max-width: 1024px) {
   .lead {
-    width: 928px;
-    padding-top: 48px;
     height: 962px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    height: 862px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead {
+    height: 406px;
   }
 }

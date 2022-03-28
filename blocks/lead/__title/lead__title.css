@@ -5,7 +5,23 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-/* or 104% */
+  /* or 104% */
   margin: 0;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: calc(40px + (96 - 40) * ((100vw - 320px) / (1280 - 320)));
+    line-height: calc(44px + (100 - 44) * ((100vw - 320px) / (1280 - 320)));
+    max-width: calc(288px + (720 - 288) * ((100vw - 320px) / (1280 - 320)));
+
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__title {
+    max-width: 288px;
+    height: 88px;
+  }
 }

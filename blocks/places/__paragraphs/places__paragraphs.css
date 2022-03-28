@@ -1,13 +1,28 @@
 .places__paragraphs {
   padding-top: 48px;
   margin: 0;
-  padding-left: 40px;
-  width: 484px;
+  padding-left: calc(16px + (40 - 16) * ((100vw - 320px) / (1280 - 320)));
+  max-width: 484px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .places__paragraphs {
-    padding-left: 32px;
-    width: 456px;
+    width: calc(325px + (456 - 325) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 768px) {
+  .places__paragraphs {
+    width: 325px;
+    padding-top: calc(32px + (48 - 32) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 320px) {
+  .places__paragraphs {
+    padding-right: 16px;
+    max-width: 288px;
+    padding-bottom: 50px;
   }
 }

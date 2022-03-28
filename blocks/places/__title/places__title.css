@@ -4,12 +4,28 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  padding-right: 40px;
+  padding-right: calc(16px + (40 - 16) * ((100vw - 320px) / (1280 - 320)));
 }
 
 @media (max-width: 1024px) {
   .places__title {
-    padding-right: 32px;
-    width: 440px;
+    width: calc(340px + (440 - 340) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 768px) {
+  .places__title {
+    width: calc(288px + (340 - 288) * ((100vw - 320px) / (1280 - 320)));
+    font-size: calc(42px + (72 - 42) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 320px) {
+  .places__title {
+    width: 288px;
+    font-size: calc(32px + (42 - 32) * ((100vw - 320px) / (1280 - 320)));
+    line-height: 35px;
+    padding-left: 16px;
   }
 }

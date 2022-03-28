@@ -10,3 +10,19 @@
   margin: 0;
   padding-top: 32px;
 }
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1280 - 320)));
+    line-height: calc(20px + (36 - 20) * ((100vw - 320px) / (1280 - 320)));
+    max-width: calc(288px + (640 - 288) * ((100vw - 320px) / (1280 - 320)));
+    padding-top: calc(16px + (32 - 16) * ((100vw - 320px) / (1280 - 320)));
+
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    height: 40px;
+  }
+}

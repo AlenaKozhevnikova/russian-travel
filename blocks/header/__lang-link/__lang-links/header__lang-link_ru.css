@@ -1,7 +1,12 @@
 .header__lang-link_ru {
-  position: absolute;
   width: 30px;
   height: 28px;
-  top: 46px;
-  right: 95px;
+  float: right;
+}
+
+@media (max-width: 320px) {
+  .header__lang-link_ru {
+    width: 22px;
+    height: 20px;
+  }
 }

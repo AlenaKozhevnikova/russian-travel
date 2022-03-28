@@ -7,8 +7,22 @@
 
 @media (max-width: 1024px) {
   .places__image {
-    width: 440px;
-    height: 440px;
+    width: calc(340px + (440 - 340) * ((100vw - 320px) / (1280 - 320)));
+    height: calc(340px + (440 - 340) * ((100vw - 320px) / (1280 - 320)));
   }
 }
 
+@media (max-width: 768px) {
+  .places__image {
+    width: calc(320px + (340 - 320) * ((100vw - 320px) / (1280 - 320)));
+    height: calc(320px + (340 - 320) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 320px) {
+  .places__image {
+    width: 320px;
+    height: 320px;
+    padding-top: 32px;
+  }
+}

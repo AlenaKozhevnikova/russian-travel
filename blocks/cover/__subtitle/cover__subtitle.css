@@ -18,3 +18,23 @@
     padding: 379px 332px 195px;
   }
 }
+
+@media (max-width: 768px) {
+  .cover__subtitle {
+    padding: 299px 204px 115px;
+    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__subtitle {
+    padding-left: 16px;
+    padding-top: 119px;
+    padding-bottom: 33px;
+    padding-right: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+    height: 48px;
+  }
+}
