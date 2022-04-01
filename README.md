@@ -25,3 +25,5 @@ During coding this project has been used techniques, such as:
 - Check the code for cross-browser compatibility and add all vendor prefixes;
 - Make a form through which users can send a comment.
 - Change all website by GridLayout.
+
+https://alenakozhevnikova.github.io/russian-travel/

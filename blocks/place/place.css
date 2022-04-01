@@ -1,0 +1,27 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+  max-width: 984px;
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+    padding-bottom: 72px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    max-width: 320px;
+    padding-bottom: 16px;
+  }
+}

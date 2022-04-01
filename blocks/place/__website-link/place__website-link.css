@@ -1,0 +1,12 @@
+.place__website-link {
+  height: 22px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFF;
+}
+
+.place__website-link:hover {
+  cursor: pointer;
+}

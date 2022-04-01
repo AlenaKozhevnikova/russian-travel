@@ -1,0 +1,26 @@
+.place__website {
+  width: 456px;
+  height: 46px;
+  align-self: flex-end;
+}
+
+@media (max-width: 1024px) {
+  .place__website {
+    max-width: calc(352px + (456 - 352) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 768px) {
+  .place__website {
+    max-width: calc(288px + (352 - 288) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+
+@media (max-width: 320px) {
+  .place__website {
+    width: 288px;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
