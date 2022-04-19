@@ -1,10 +1,8 @@
 .cover__title {
   width: 560px;
-  height: 152px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
   /* or 106% */
   text-align: center;
   padding: 245px 312px 32px;
@@ -28,9 +26,7 @@
   .cover__title {
     padding: 33px 16px 16px;
     width: 288px;
-    height: 70px;
     font-size: 32px;
-    line-height: 35px;
     text-align: center;
   }
 }

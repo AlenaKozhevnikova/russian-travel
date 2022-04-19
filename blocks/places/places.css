@@ -1,0 +1,23 @@
+.places {
+  max-width: 984px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .places {
+    max-width: calc(928px + (984 - 928) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+@media (max-width: 768px) {
+  .places {
+    max-width: calc(720px + (928 - 720) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
+@media (max-width: 320px) {
+  .places {
+    max-width: calc(320px + (720 - 320) * ((100vw - 320px) / (1280 - 320)));
+    padding-bottom: 16px;
+  }
+}
+

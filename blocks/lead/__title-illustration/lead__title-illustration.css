@@ -1,14 +1,12 @@
 .lead__title-illustration {
   width: 984px;
-  height: 615px;
   object-fit: cover;
   padding-top: 64px;
 }
 
 @media (max-width: 1024px) {
   .lead__title-illustration {
-    width: calc(928px + (984 - 928) * ((100vw - 928px) / (1280 - 320)));
-    height: 580px;
+    width: 100%;
     padding-top: 56px;
   }
 }
@@ -16,14 +14,12 @@
 @media (max-width: 768px) {
   .lead__title-illustration {
     width: 100%;
-    height: 480px;
   }
 }
 
 @media (max-width: 320px) {
   .lead__title-illustration {
     width: 100%;
-    height: 200px;
     padding-top: 40px;
   }
 }

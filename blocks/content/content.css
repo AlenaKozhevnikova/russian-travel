@@ -4,4 +4,5 @@
   justify-content: center;
   flex-direction: column;
   color: #FFFFFF;
+  overflow: hidden;
 }

@@ -6,6 +6,12 @@
   padding-top: 92px;
 }
 
+@media (max-width: 1600px) {
+  .intro {
+    padding-left: calc(148px + (500 - 148) * ((100vw - 1280px) / (1600 - 320)));;
+  }
+}
+
 @media (max-width: 1024px) {
   .intro {
     padding-left: 48px;

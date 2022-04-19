@@ -1,7 +1,5 @@
 .place__paragraphs {
-  padding-top: 48px;
   margin: 0;
-  padding-left: calc(16px + (40 - 16) * ((100vw - 320px) / (1280 - 320)));
   max-width: 484px;
   box-sizing: border-box;
 }
@@ -15,14 +13,12 @@
 @media (max-width: 768px) {
   .place__paragraphs {
     width: 325px;
-    padding-top: calc(32px + (48 - 32) * ((100vw - 320px) / (1280 - 320)));
   }
 }
 
 @media (max-width: 320px) {
   .place__paragraphs {
-    padding-right: 16px;
     max-width: 288px;
-    padding-bottom: 50px;
+    margin: auto;
   }
 }

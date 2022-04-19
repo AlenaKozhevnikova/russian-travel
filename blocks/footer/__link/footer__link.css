@@ -1,9 +1,7 @@
 .footer__link {
-  height: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 18px;
   /* identical to box height, or 112% */
   padding-right: 18px;
   text-decoration: none;
@@ -17,14 +15,12 @@
 @media (max-width: 768px) {
   .footer__link {
     font-size: 16px;
-    line-height: 18px;
   }
 }
 
 @media (max-width: 320px) {
   .footer__link {
     font-size: 24px;
-    line-height: 24px;
     padding-bottom: 32px;
     padding-left: 16px;
   }

@@ -1,6 +1,5 @@
 .cover {
   width: 1184px;
-  height: 740px;
   padding-bottom: 92px;
   padding-top: 12px;
   position: relative;
@@ -13,27 +12,11 @@
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
-  .cover {
-    width: 1024px;
-    height: 640px;
-  }
-}
-
-@media (max-width: 768px) {
-  .cover {
-    width: 768px;
-    height: 480px;
-  }
-}
-
 @media (max-width: 320px) {
   .cover {
-    width: 320px;
-    height: 200px;
+    max-width: calc(320px + (1184 - 320) * ((100vw - 320px) / (1280 - 320)));
     padding-top: 0;
     padding-bottom: 64px;
   }
 }
-
 

@@ -1,10 +1,8 @@
 .footer__copyright {
   width: 200px;
-  height: 16px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
   /* identical to box height, or 114% */
   text-align: right;
   color: #FFFFFF;
@@ -13,14 +11,12 @@
 @media (max-width: 768px) {
   .footer__copyright {
     font-size: 14px;
-    line-height: 16px;
   }
 }
 
 @media (max-width: 320px) {
   .footer__copyright {
     font-size: 14px;
-    line-height: 14px;
     padding-top: 16px;
     padding-left: 16px;
   }
