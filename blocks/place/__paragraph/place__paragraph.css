@@ -2,6 +2,7 @@
   padding-bottom: 26px;
   margin: 0;
   line-height: 163%;
+  font-size: 18px;
 }
 
 .place__paragraph:last-of-type {
@@ -14,7 +15,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 670px) {
   .place__paragraph {
     padding-bottom: 25px;
   }

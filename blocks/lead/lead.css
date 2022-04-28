@@ -7,9 +7,22 @@
   margin: auto;
 }
 
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    padding-top: 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    padding-top: 48px;
+  }
+}
+
 @media (max-width: 320px) {
   .lead {
-    padding-top: calc(48px + (56 - 48) * ((100vw - 320px) / (1280 - 320)));
-    max-width: calc(320px + (984 - 320) * ((100vw - 320px) / (1280 - 320)));
+    max-width: 320px;
   }
 }

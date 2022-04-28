@@ -1,10 +1,10 @@
 .place__image {
   width: 100%;
-  object-fit: fill;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 670px) {
   .place__image {
     padding-top: 32px;
+    padding-bottom: 32px;
   }
 }

@@ -1,11 +1,4 @@
 .cover__link {
   text-decoration: none;
   color: #FFFFFF;
-  width: 100%;
 }
-
-  @media (max-width: 320px) {
-    .cover__link {
-      max-width: calc(320px + (1184 - 320) * ((100vw - 320px) / (1280 - 320)));
-    }
-  }

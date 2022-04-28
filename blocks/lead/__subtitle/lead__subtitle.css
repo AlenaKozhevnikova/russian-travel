@@ -3,17 +3,22 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  /* or 120% */
+  line-height: 120%;
   text-align: center;
   margin: 0;
   padding-top: 32px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .lead__subtitle {
     font-size: calc(16px + (30 - 16) * ((100vw - 320px) / (1280 - 320)));
     max-width: calc(288px + (640 - 288) * ((100vw - 320px) / (1280 - 320)));
-    padding-top: calc(16px + (32 - 16) * ((100vw - 320px) / (1280 - 320)));
+  }
+}
 
+@media (max-width: 320px) {
+  .lead__subtitle {
+    line-height: 125%;
+    padding-top: 16px;
   }
 }

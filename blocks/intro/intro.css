@@ -6,9 +6,10 @@
   padding-top: 92px;
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1300px) {
   .intro {
-    padding-left: calc(148px + (500 - 148) * ((100vw - 1280px) / (1600 - 320)));;
+    padding-left: calc(148px + (10000 - 148) * ((100vw - 1600px) / (1600 - 320)));
+    ;
   }
 }
 
@@ -20,15 +21,24 @@
 
 @media (max-width: 768px) {
   .intro {
-    width: 720px;
+    max-width: 720px;
+    padding-top: 88px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 88px;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 720px) {
+  .intro {
+    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .intro {
     padding-top: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }
