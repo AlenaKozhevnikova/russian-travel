@@ -9,7 +9,6 @@
 @media (max-width: 1300px) {
   .intro {
     padding-left: calc(148px + (10000 - 148) * ((100vw - 1600px) / (1600 - 320)));
-    ;
   }
 }
 
