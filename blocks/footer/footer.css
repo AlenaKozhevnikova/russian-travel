@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-right: 48px;
+  padding-left: 48px;
   margin: auto;
 }
 
@@ -16,6 +18,8 @@
 @media (max-width: 768px) {
   .footer {
     max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
