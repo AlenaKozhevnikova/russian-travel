@@ -5,3 +5,8 @@
   margin: 0;
   list-style: none;
 }
+
+.header__lang-links:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

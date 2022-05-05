@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   flex-flow: column;
-  margin: auto;
+  margin: 0;
 }
 
 @media (max-width: 1024px) {
@@ -17,7 +17,6 @@
 @media (max-width: 768px) {
   .lead {
     max-width: 768px;
-    padding-top: 48px;
   }
 }
 

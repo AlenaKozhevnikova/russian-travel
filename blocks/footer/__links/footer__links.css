@@ -5,3 +5,8 @@
     align-content: space-between;
   }
 }
+
+.footer__links:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
