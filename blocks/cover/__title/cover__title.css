@@ -39,6 +39,14 @@
   }
 }
 
+
+@media (max-width: 806px) {
+  .cover__title {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
 @media (max-width: 768px) {
   .cover__title {
     padding-left: 104px;
@@ -53,9 +61,18 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 645px) {
+  .cover__title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 606px) {
   .cover__title {
     font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (1280 - 320)));
+    padding-left: 30px;
+    padding-right: 30px;
   }
 }
 
