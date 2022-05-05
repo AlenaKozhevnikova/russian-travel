@@ -7,11 +7,11 @@
   -webkit-background-size: cover;
   background-size: cover;
   min-height: 740px;
-  width: 1184px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .cover__link::before {
@@ -33,14 +33,12 @@
 @media (max-width: 1024px) {
   .cover__link {
     min-height: 640px;
-    width: 1024px;
   }
 }
 
 @media (max-width: 768px) {
   .cover__link {
     min-height: 480px;
-    width: 768px;
   }
 }
 
@@ -48,6 +46,5 @@
   .cover__link {
     min-height: 200px;
     justify-content: flex-start;
-    width: 320px;
   }
 }
