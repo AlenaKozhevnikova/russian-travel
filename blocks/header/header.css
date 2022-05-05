@@ -4,6 +4,8 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  padding-right: 48px;
+  padding-left: 48px;
 }
 
 @media (max-width: 1024px) {
@@ -15,6 +17,8 @@
 @media (max-width: 768px) {
   .header {
     max-width: 720px;
+    padding-right: 24px;
+    padding-left: 24px;
   }
 }
 
