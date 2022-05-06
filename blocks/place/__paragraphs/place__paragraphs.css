@@ -9,13 +9,9 @@
   }
 }
 
-@media (max-width: 850px) {
-  .place__paragraphs {
-    max-width: 400px;
-  }
-}
 
-@media (max-width: 768px) {
+
+@media (max-width: 1000px) {
   .place__paragraphs {
     max-width: 352px;
   }

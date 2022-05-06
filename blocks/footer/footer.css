@@ -7,6 +7,7 @@
   padding-right: 48px;
   padding-left: 48px;
   margin: auto;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
@@ -23,7 +24,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
   .footer {
     max-width: 186px;
     display: block;

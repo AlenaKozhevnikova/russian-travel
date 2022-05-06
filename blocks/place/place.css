@@ -13,11 +13,19 @@
   .place {
     max-width: 928px;
     grid-column-gap: 32px;
-    box-sizing: border-box;
+
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  .place {
+    grid-column-gap: 28px;
+    padding-bottom: 73px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 950px) {
   .place {
     grid-column-gap: 28px;
     padding-bottom: 73px;
