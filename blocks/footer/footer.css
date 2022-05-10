@@ -1,5 +1,5 @@
 .footer {
-  max-width: 1184px;
+
   padding-bottom: 24px;
   display: flex;
   flex-direction: row;
@@ -12,13 +12,12 @@
 
 @media (max-width: 1024px) {
   .footer {
-    max-width: 928px;
+
   }
 }
 
 @media (max-width: 768px) {
   .footer {
-    max-width: 720px;
     padding-right: 24px;
     padding-left: 24px;
   }
